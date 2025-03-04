@@ -1,0 +1,28 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.grid-container {
+    max-width: 960px;
+    margin: 100px;
+    padding: 10px;
+    gap: 10px;
+    align-items: start;
+}
+
+.item {
+    background-color: #98A8F8;
+    color: #fffff;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid #CDFCF6;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap:10px;
+}
+
